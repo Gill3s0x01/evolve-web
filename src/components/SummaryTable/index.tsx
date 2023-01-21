@@ -26,7 +26,7 @@ export const SummaryTable = () => {
       </div>
       <div className={'grid grid-rows-7 grid-flow-col gap-3'}>
         {summaryDates.map((date) => {
-          return <HabitDay key={date.toString()} />
+          return <HabitDay key={date.toString()} amount={1} completed={0} />
         })}
 
         {amountOfDaysToFill > 0 &&
