@@ -1,5 +1,5 @@
 import { generateDays } from '../../utils/generate-dates-from-years-beginning'
-import { HabitDay } from '../Habit'
+import { HabitDay } from '../HabitDay'
 
 export const SummaryTable = () => {
   const weekDay = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S']
